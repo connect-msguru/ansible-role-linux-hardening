@@ -1,4 +1,8 @@
-localhost
-hostname1
-hostname2
-hostname3
+all:
+  hosts:
+      green.example.com:
+          ansible_ssh_host: 191.168.100.32
+          anyvariable: value
+      blue.example.com:
+      192.168.100.1:
+      192.168.100.10:
